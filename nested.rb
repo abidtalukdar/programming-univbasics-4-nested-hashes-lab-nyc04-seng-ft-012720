@@ -1,4 +1,3 @@
-
 def hopper
 	programmer_hash = 
  		{
@@ -132,6 +131,6 @@ def adding_to_dennis
         }
      }
 
-  programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+  programmer_hash[:dennis_ritchie][:languages] << "Assembly" # add value to Dennis's languages
   return programmer_hash
 end
